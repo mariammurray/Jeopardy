@@ -1,0 +1,65 @@
+body{
+  background-color: #115ff4;
+}
+table, th, td{
+  border: solid;
+  border-color: black;
+  text-align: center;
+  border-collapse: collapse;
+  background-color: #060ce9;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+table{
+  padding-top: 70px;
+  width: 100%;
+  table-layout: fixed;
+}
+
+tr{
+  height: 100px;
+}
+
+td{
+  font-weight: bolder;
+  font-size:x-large;
+  color: #e2d664;
+  height: 70px;
+  width: 16%;
+  padding: 10px;
+}
+
+th{
+  color:aliceblue;
+  height: 40px;
+  width: 16%;
+  padding: 10px;
+}
+
+button{
+  width: 30%;
+  position: fixed;
+  text-align: center;
+  background-color: #74119c;
+  color: aliceblue;
+}
+
+.question{
+  color:aliceblue;
+  font-weight:lighter;
+  font-size:small;
+}
+
+.answer{
+  color:aliceblue;
+  background-color: #28a200;
+  font-weight:bold;
+  font-size: medium;
+}
+
+
+#buttonDiv{
+  padding:50px;
+  margin:auto;
+  width: 30%;
+}
